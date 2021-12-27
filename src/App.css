@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "PT Sans", sans-serif;
+}
+
+.home,
+.korea,
+.japan,
+.chubbyhome,
+.chubbysick,
+.chubbyrecovered {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+
+.korea {
+  background-image: url("/public/images/img-korea2.jpg");
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 50px;
+}
+.japan {
+  background-image: url("/public/images/img-japan.jpg");
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 50px;
+}
+.chubbyhome {
+  background-image: url("/public/images/img-chubby1.jpg");
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 50px;
+}
+.chubbysick {
+  background-image: url("/public/images/img-chubbysick2.jpg");
+  height: 100vh;
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 50px;
+}
+.chubbyrecovered {
+  background-image: url("/public/images/img-recovered.jpg");
+  height: 100vh;
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 50px;
+}
+/* 
+.aboutme {
+  background-color: #dbb863;
+  background-image: url("/public/images/img-1.jpg");
+  background-position: center;
+  background-size: fill;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+} */
+
+/* .contact {
+  background-image: url("/public/images/img-8.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+} */

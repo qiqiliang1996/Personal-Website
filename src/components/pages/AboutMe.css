@@ -1,0 +1,40 @@
+.about-container {
+  margin-top: 270px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bone-marrow {
+  color: lightcoral;
+}
+.quick-learner {
+  color: lightsalmon;
+}
+.picture {
+  display: flex;
+  justify-content: center;
+}
+.description {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+@media screen and (max-width: 992px) {
+  .about-container {
+    margin-top: 470px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .about-container {
+    margin-top: 500px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .about-container {
+    margin-top: 600px;
+  }
+}

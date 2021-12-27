@@ -1,0 +1,77 @@
+body {
+  background-color: #f5f4f6;
+}
+.text {
+  text-align: center;
+}
+.contact-container {
+  background-color: #f5f4f6;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* .icons-1 {
+  background-color: red;
+}
+.icons-2 {
+  background-color: orange;
+} */
+
+.icons-container {
+  display: flex;
+  justify-content: space-between;
+}
+.contact-logo {
+  font-size: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+/* .fb {
+  background-color: lightgoldenrodyellow;
+}
+
+.ins {
+  background-color: lightgreen;
+}
+.youtube {
+  background-color: lightskyblue;
+}
+.linkedin {
+  background-color: mediumaquamarine;
+} */
+
+.fa-facebook-square {
+  color: 087cea;
+  transition-duration: 1s;
+}
+.fa-facebook-square:hover {
+  transform: rotate(360deg);
+}
+
+.fa-instagram {
+  color: #c63ba7;
+  transition-duration: 1s;
+}
+
+.fa-instagram:hover {
+  transform: rotate(360deg);
+}
+
+.fa-youtube-square {
+  color: red;
+  transition-duration: 1s;
+}
+.fa-youtube-square:hover {
+  transform: rotate(180deg);
+}
+
+.fa-linkedin {
+  color: 0a66c2;
+}
+
+.fa-linkedin:hover {
+  color: blue;
+}
